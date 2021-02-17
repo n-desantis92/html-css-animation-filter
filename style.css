@@ -10,12 +10,19 @@
   background-color: red;
 }
 /* /es-1 */
-
+/* es-2 */
 .ex-2-square {
-    width: 100px;
-    height: 100px;
-    background: red;
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 3s linear ;
 }
+
+.ex-2-square:active {
+  width: 300px;
+}
+/* /es-2 */
+
 .ex-3-square {
     width: 100px;
     height: 100px;
